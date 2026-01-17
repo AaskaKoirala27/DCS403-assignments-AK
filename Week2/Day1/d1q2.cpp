@@ -4,8 +4,10 @@
 using namespace std;
 int main() {
     double num1, num2;
-    cout << "Dui ota number halnu hos: ";
-    cin >> num1 >> num2;
+    cout << "First number halnu hos: ";
+    cin >> num1;
+    cout << "Second number halnu hos: ";
+    cin >> num2;
     if (num1 > num2) {
         cout << "Duita madhye thulo number is: " << num1 << endl;
     } else if (num2 > num1) {
